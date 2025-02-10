@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiFi Text Editor</title>
+    <link rel="stylesheet" href="texteditor.css">
+</head>
+<body>
+    <div class="brutalist-container">
+        <h2>ENTER TEXT</h2>
+        <textarea
+            id="txt"
+            placeholder="TYPE HERE"
+            class="brutalist-input smooth-type"
+        ></textarea>
+        <label class="brutalist-label">ENTER SOMETHING</label>
+    </div>
+    <div class="editor-controls">
+        <button id="cap" class="control-btn">UPPERCASE</button>
+        <button id="small" class="control-btn">LOWERCASE</button>
+        <button id="bold" class="control-btn">BOLD</button>
+        <button id="ital" class="control-btn">ITALIC</button>
+        <button id="line" class="control-btn">UNDERLINE</button>
+        <button id="strike" class="control-btn">STRIKETHROUGH</button>
+        <button id="font-up" class="control-btn">INCREASE FONT</button>
+        <button id="font-down" class="control-btn">DECREASE FONT</button>
+        <button id="window-up" class="control-btn">INCREASE WINDOW SIZE</button>
+        <button id="window-down" class="control-btn">DECREASE WINDOW SIZE</button>
+        <select id="font-select" class="control-btn">
+            <option value="Courier New">Courier New</option>
+            <option value="Arial">Arial</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Verdana">Verdana</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
